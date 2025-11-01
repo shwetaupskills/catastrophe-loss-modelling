@@ -6,7 +6,7 @@ This project simulates financial losses from natural catastrophe events using **
 
 ---
 
-## 🎯 Objective
+## Objective
 Estimate:
 - **Expected Annual Loss (EAL)**
 - **Probable Maximum Loss (PML)** (95% and 99%)
@@ -14,7 +14,7 @@ under different assumptions of hazard frequency, severity, and insurance structu
 
 ---
 
-## 🧮 Simulation Framework
+## Simulation Framework
 
 | Parameter | Description | Example |
 |------------|--------------|----------|
@@ -26,7 +26,7 @@ under different assumptions of hazard frequency, severity, and insurance structu
 
 ---
 
-## 🏦 Insurance Structure
+## Insurance Structure
 The model supports:
 - **Deductibles / Policy Limits**
 - **Reinsurance retention and limits**
@@ -34,7 +34,7 @@ The model supports:
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 - Real-time adjustment of simulation parameters
 - Live histograms of annual losses
 - Comparative metrics table (Gross / After Insurance / After Reinsurance)
