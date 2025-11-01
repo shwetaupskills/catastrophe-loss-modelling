@@ -1,18 +1,16 @@
- -----------------------------------------------------------
 # Catastrophe Loss Modelling Dashboard
 # Author: Shweta Dwivedi
 # Objective: Interactive Monte Carlo Simulation for EAL & PML
-# -----------------------------------------------------------
 
 import streamlit as st
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-# -----------------------------------------------------------
+
 # Sidebar Controls
-# -----------------------------------------------------------
-st.sidebar.title("📊 Simulation Parameters")
+
+st.sidebar.title(" Simulation Parameters")
 
 num_years = st.sidebar.number_input("Number of simulated years", 1000, 100000, 10000, step=1000)
 portfolio_value = st.sidebar.number_input("Portfolio Value (₹)", 1e6, 5e9, 1e9, step=1e8)
@@ -121,3 +119,4 @@ st.markdown(f"""
 - **Reinsurance** further reduces volatility and limits extreme losses.
 - Increasing `λ` (event frequency) or `mean_damage_ratio` increases both EAL and PML.
 """)
+
